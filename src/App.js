@@ -1,11 +1,13 @@
 import './App.css';
 import Navbar from './Component/Navbar/Navbar';
+import SideBar from './Component/SideBar/SideBar';
 
 function App() {
   return (
     <div>
       <Navbar></Navbar>
-     <h2>Hello Dashboard</h2>
+      <SideBar></SideBar>
+     
     </div>
   );
 }
