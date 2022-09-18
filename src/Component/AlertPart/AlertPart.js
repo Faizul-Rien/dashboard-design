@@ -1,6 +1,7 @@
 import React from 'react';
 import './Alert.css';
 import { Alert } from 'antd';
+import TotalSale from '../TotalSale/TotalSale';
 
 
 const onClose = (e) => {
@@ -28,10 +29,11 @@ const AlertPart = () => {
     />
 
         </div>
-
+        <TotalSale></TotalSale>
        </div>
         );
    
 };
+
 
 export default AlertPart;

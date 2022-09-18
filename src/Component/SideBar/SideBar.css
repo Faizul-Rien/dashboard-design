@@ -1,6 +1,6 @@
 .menu-container{
     background-color: #E1E1E1;
-    width: 300px;
+    width: 250px;
     height: 1200px;
 }
 .title{
@@ -16,7 +16,7 @@
     margin-left: 20px;
     padding-top: 10px;
     border-radius: 10px;
-    width: 250px;
+    width: 200px;
 }
 
 .common-p img{
