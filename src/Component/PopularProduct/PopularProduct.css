@@ -1,0 +1,55 @@
+.product-container{
+    width: 500px;
+    height: 700px;
+    margin-left: 32px;
+    margin-top: 30px;
+    border: 1px solid #E3E8EF;
+    box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.07), 0px 1.6px 3.6px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+}
+
+.product-title{
+    margin-left: 18px;
+    margin-top: 12px;
+}
+
+.product-box{
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    border: 1px solid #E3E8EF;
+    margin-left: 16px;
+    margin-right: 20px;
+}
+
+.product-name{
+    padding: 8px;
+    font-size: 16px;
+    color: #5C5C5C;
+}
+
+.box-container{
+    display: flex;
+    border-bottom: 1px solid #E3E8EF;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+
+.sale-percent{
+    font-size: 10px;
+    margin-top: -15px;
+    width: 120px;
+}
+
+.sale-quantity{
+    color: #FF3030;
+    font-size: 12px;
+    margin-left: 240px;
+    margin-top: 12px;
+}
+
+.color{
+    color: #FF3030;
+}

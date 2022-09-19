@@ -4,6 +4,7 @@ import { DatePicker, Space } from 'antd';
 import moment from 'moment';
 import { Line } from '@ant-design/plots';
 import TodaySale from '../TodaySale/TodaySale';
+import PopularProduct from '../PopularProduct/PopularProduct';
 
 const data = [
     {
@@ -44,7 +45,8 @@ const data = [
 const dateFormat = 'YYYY-MM-DD';
 const TotalSale = () => {
     return (
-       <div className='container'>
+       <div>
+        <div className='container'>
          <div className='sale-container'>
        <div className='date-picker'>
        <h2>Total Sale</h2>
@@ -86,7 +88,11 @@ const TotalSale = () => {
     <div>
         <TodaySale></TodaySale>
     </div>
+   
     </div>
+    <PopularProduct></PopularProduct>
+       </div>
+     
     );
 };
 
