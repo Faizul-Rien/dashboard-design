@@ -1,8 +1,8 @@
 .product-container{
     width: 500px;
-    height: 700px;
+    height: 660px;
     margin-left: 32px;
-    margin-top: 30px;
+    margin-top: 16px;
     border: 1px solid #E3E8EF;
     box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.07), 0px 1.6px 3.6px rgba(0, 0, 0, 0.11);
     border-radius: 8px;
@@ -52,4 +52,11 @@
 
 .color{
     color: #FF3030;
+}
+
+.portion-container{
+    display: flex;
+}
+.outline-2{
+    margin-left: 230px;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './TodaySale.css';
 import { Pie } from '@ant-design/plots';
 import { Button } from 'antd';
+import { MoreOutlined } from '@ant-design/icons';
 
 
 const data = [
@@ -61,7 +62,7 @@ const TodaySale = () => {
             
              <div className='today-sale'>
              <div>
-                <h2 className='s-title'>Sales Chart</h2>
+                <h2 className='s-title'>Sales Chart <MoreOutlined className='outline-3'/></h2>
                 <p className='sale-t'>Todays Sale</p>
                 <h2 className='s-title'>156</h2>
                 

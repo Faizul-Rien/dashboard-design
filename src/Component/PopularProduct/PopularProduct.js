@@ -1,10 +1,13 @@
+import { MoreOutlined } from '@ant-design/icons';
 import React from 'react';
+import Sale from '../Sale/Sale';
 import './PopularProduct.css';
 
 const PopularProduct = () => {
     return (
-        <div className='product-container'>
-            <h2 className='product-title'>Most Popular Product</h2>
+       <div className='portion-container'>
+         <div className='product-container'>
+            <h2 className='product-title'>Most Popular Product <MoreOutlined className='outline-2' /></h2>
 
 
             <div className='box-container'>
@@ -171,6 +174,8 @@ const PopularProduct = () => {
 
 
         </div>
+        <Sale></Sale>
+       </div>
     );
 };
 

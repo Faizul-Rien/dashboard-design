@@ -1,0 +1,71 @@
+.sales-container{
+    width: 394px;
+    height: 350px;
+    border: 1px solid #E3E8EF;
+    box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.07), 0px 1.6px 3.6px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.sales-title{
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.date-position{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale-heading{
+    margin-left: 18px;
+}
+
+.sale-number{
+    margin-left: 18px;
+    margin-top: -14px;
+    margin-bottom: 24px;
+}
+
+.img-box{
+    height: 34px;
+    width: 54px;
+    border-radius: 8px;
+    border: 1px solid #E3E8EF;
+    
+    margin-right:10px;
+}
+
+.img-box img{
+    padding: 2px;
+}
+
+.client-information{
+    font-size: 10px;
+    margin-top: -15px;
+    width: 150px;
+}
+
+.information-box{
+    display: flex;
+    border-bottom: 1px solid #E3E8EF;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    width: 360px;
+}
+
+.sales-btn{
+    font-size: 12px;
+    margin-left: 90px;
+}
+
+.show-btn{
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.outline{
+    margin-left: 300px;
+}

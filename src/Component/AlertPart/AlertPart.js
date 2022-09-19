@@ -14,7 +14,7 @@ const AlertPart = () => {
       
     return (
        <div>
-        <h2 className='sales-title'>Redgreen Sales</h2>
+        <h2 className='sale-title'>Redgreen Sales</h2>
          <div className='alert-info'>
               <Alert
               

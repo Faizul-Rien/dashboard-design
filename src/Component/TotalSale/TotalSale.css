@@ -1,5 +1,5 @@
 .sale-container{
-    width: 600px;
+    width: 560px;
     height: 330px;
     margin-left: 32px;
     margin-top: 30px;
@@ -10,8 +10,14 @@
 
 .date-picker{
     display: flex;
-    justify-content: space-between;
     padding: 15px;
+}
+
+.date-set{
+    margin-left: 240px;
+}
+.total-sale-title{
+    width: 100px;
 }
 
 .sale-item{
@@ -39,4 +45,10 @@ margin-left: 18px;
 
 .container{
     display: flex;
+}
+
+.outline-4{
+    margin-left: 36px;
+    font-size: 20px;
+    margin-top: 6px;
 }
