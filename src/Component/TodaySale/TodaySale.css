@@ -9,9 +9,9 @@
 
 }
 .pie-chart{
-    width: 250px;
+    width: 290px;
     height: 100px;
-    padding-left: 10px;
+    margin-left: -20px;
 }
 .sale-t{
 
@@ -23,9 +23,20 @@
 }
 .btn{
     font-size: 12px;
-    margin-left: 170px;
+    margin-left: 174px;
+    margin-top: -20px;
 }
 
 .outline-3{
-    margin-left: 170px;
+    margin-left: 160px;
+}
+
+.today-btn{
+    border-radius: 8px;
+    font-size: 12px;
+    margin-left: 120px;
+}
+
+.down{
+    font-size: 8px;
 }

@@ -1,4 +1,5 @@
 import { MoreOutlined } from '@ant-design/icons';
+import { Button } from 'antd';
 import React from 'react';
 import Sale from '../Sale/Sale';
 import './PopularProduct.css';
@@ -171,7 +172,9 @@ const PopularProduct = () => {
 
             </div>
 
-
+            <Button className='popular-btn' type="link">
+        Show more
+      </Button>
 
         </div>
         <Sale></Sale>

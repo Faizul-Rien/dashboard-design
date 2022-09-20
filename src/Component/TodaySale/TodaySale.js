@@ -2,20 +2,20 @@ import React from 'react';
 import './TodaySale.css';
 import { Pie } from '@ant-design/plots';
 import { Button } from 'antd';
-import { MoreOutlined } from '@ant-design/icons';
+import { DownOutlined, MoreOutlined } from '@ant-design/icons';
 
 
 const data = [
     {
-      type: 'TV',
+      type: '50% TV',
       value: 50,
     },
     {
-      type: 'Laptop',
+      type: '25% Laptop',
       value: 25,
     },
     {
-      type: 'Other',
+      type: '25% Other',
       value: 25,
     }
   ];
@@ -63,7 +63,7 @@ const TodaySale = () => {
              <div className='today-sale'>
              <div>
                 <h2 className='s-title'>Sales Chart <MoreOutlined className='outline-3'/></h2>
-                <p className='sale-t'>Todays Sale</p>
+                <p className='sale-t'>Todays Sale <Button className='today-btn'>Today <DownOutlined className="down" /></Button></p>
                 <h2 className='s-title'>156</h2>
                 
             </div>

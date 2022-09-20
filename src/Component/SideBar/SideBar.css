@@ -1,12 +1,13 @@
 .menu-container{
-    background-color: #E1E1E1;
-    width: 300px;
-    height: 1200px;
+    background-color: rgba(241, 242, 247, 0.75);
+    width: 280px;
+    height: 1240px;
 }
 .title{
     margin-left: 60px;
     padding-top: 20px;
     font-weight: 400;
+    font-size: 14px;
 }
 .common-p{
     display: flex;
@@ -14,14 +15,15 @@
 .common-p{
     margin-bottom: 10px;
     margin-left: 20px;
-    padding-top: 10px;
+    padding-top: 14px;
     border-radius: 10px;
     width: 220px;
+    font-size:13px;
 }
 
 .common-p img{
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     margin-left: 40px;
     margin-right: 10px;
 }

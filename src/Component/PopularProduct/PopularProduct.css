@@ -1,6 +1,6 @@
 .product-container{
     width: 500px;
-    height: 660px;
+    height: 670px;
     margin-left: 32px;
     margin-top: 16px;
     border: 1px solid #E3E8EF;
@@ -40,13 +40,13 @@
 .sale-percent{
     font-size: 10px;
     margin-top: -15px;
-    width: 120px;
+    width: 140px;
 }
 
 .sale-quantity{
     color: #FF3030;
     font-size: 12px;
-    margin-left: 240px;
+    margin-left: 220px;
     margin-top: 12px;
 }
 
@@ -58,5 +58,10 @@
     display: flex;
 }
 .outline-2{
-    margin-left: 230px;
+    margin-left: 220px;
+}
+
+.popular-btn{
+    font-size: 12px;
+    margin-left: 16px;
 }

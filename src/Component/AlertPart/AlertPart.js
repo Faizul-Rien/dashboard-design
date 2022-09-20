@@ -16,17 +16,15 @@ const AlertPart = () => {
        <div>
         <h2 className='sale-title'>Redgreen Sales</h2>
          <div className='alert-info'>
-              <Alert
+              <Alert className='alert-p'
               
       message="Notification"
       description="You dont have enough stock for the next campaign."
       type="warning"
       closable
       onClose={onClose}
-
-
       
-    />
+      />
 
         </div>
         <TotalSale></TotalSale>

@@ -1,10 +1,10 @@
 .weather-container{
     width: 394px;
-    height: 350px;
+    height: 270px;
     border: 1px solid #E3E8EF;
     box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.07), 0px 1.6px 3.6px rgba(0, 0, 0, 0.11);
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .weather-title{
@@ -13,21 +13,59 @@
 }
 
 .outline-5{
-    margin-left: 260px;
+    margin-left: 254px;
 }
 
 .weather-img{
     width: 60px;
     height: 60px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 .weather-box{
     margin-left: 46px;
-    margin-top: 26px;
+    margin-top: 20px;
+    background-color: red;
 }
 .weather-temp{
     font-weight: 600;
+    margin-left: 16px;
+    width: 150px;
+    margin-top: 22px;
+}
+.weather-timeline{
+    display: flex;
 }
 
+.timeline{
+    font-size: 10px;
+    margin-left: 24px;
+    margin-top: 4px;
+}
+
+.temperature{
+    margin-left: 40px;
+    margin-top: 4px;
+    font-size: 10px;
+    text-align: end;
+}
+
+.weather-time{
+    width: 370px;
+    margin-left: 36px;
+    margin-top: 20px;
+}
+
+.weatherDate-btn{
+    margin-left: 40px;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.left-side-down{
+    font-size: 9px;
+    color: lightgray;
+}
+.right-side-down{
+    font-size: 10px;
+}

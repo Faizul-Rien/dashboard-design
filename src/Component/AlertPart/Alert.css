@@ -7,4 +7,9 @@
 .sale-title{
     margin-top: 40px;
     margin-left: 32px;
+    font-size: 18px;
+}
+
+.alert-p{
+    color: #9D8506;
 }
