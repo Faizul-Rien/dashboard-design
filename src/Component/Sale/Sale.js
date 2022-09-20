@@ -4,6 +4,7 @@ import './Sale.css';
 import moment from 'moment';
 import car from '../../Images/car.jpg'
 import { MoreOutlined } from '@ant-design/icons';
+import Weather from '../Weather/Weather';
 
 const dateFormat = 'YYYY-MM-DD';
 
@@ -85,7 +86,7 @@ const Sale = () => {
         Show more
       </Button>
            </div>
-
+        <Weather></Weather>
         </div>
     );
 };
