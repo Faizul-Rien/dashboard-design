@@ -16,8 +16,7 @@ const Navbar = () => {
              <div className='notification'>
                 <img src={bell} alt="" />
                 <img src={man} alt="" />
-                <h2>Faizul</h2>
-                <p><DownOutlined /></p>
+                <Button type="text" className='nav-btn'>Faizul<DownOutlined className='down-outline'/></Button>
              </div>
              
         </div>

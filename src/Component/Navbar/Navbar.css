@@ -50,8 +50,18 @@
     font-size: 14px;
     font-weight: 500;
 }
-.notification p{
-    font-size: 8px;
-    margin-top: 6px;
-    
+
+
+.nav-btn{
+    width: 70px;
+    font-size: 12px;
+    margin-left: -20px;
+    margin-top: -4px;
+    border-radius: 8px;
+
+}
+
+.down-outline{
+    font-size: 6px;
+    padding-bottom: 6px;
 }
